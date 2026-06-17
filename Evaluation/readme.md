@@ -38,8 +38,6 @@ When the mean velocity is zero and the distribution is symmetric, wp=sum(w)/N=su
 
 - lnu\_wp\_\*.dat, lnu\_ws\_\*.dat: Outputs from the leave 10 % out tests.
 
-- test\_emu\_sample\_all\_\*.dat: Emulator predictions for the OpenIFS test dataset (./data/sample\_dataset\_all.nc).
-
 - test\_wp\_\*.dat, test\_ws\_\*.dat: Emulator predictions for the training data.
 
 ## Codes for training, testing and evaluation
@@ -73,7 +71,7 @@ Functions for running an emulator for OpenIFS offline data. Note: sample\_datase
 
 ### OpenIFS sample
 
-The sample dataset (./data/sample\_dataset\_all.nc) contains 363000 randomly sampled cloudy columns from an OpenIFS run.
+The sample dataset (./data/sample\_dataset\_all_part.nc) contains part ot the original 363000 randomly sampled cloudy columns from an OpenIFS run.
 
 ## Publications
 - Ahola, J., Raatikainen, T., Alper, M. E., Keskinen, J.-P., Kokkola, H., Kukkurainen, A., Lipponen, A., Liu, J., Nordling, K., Partanen, A.-I., Romakkaniemi, S., Raisanen, P., Tonttila, J., and Korhonen, H.: Technical note: Parameterising cloud base updraft velocity of marine stratocumuli, Atmos. Chem. Phys., 22, 4523-4537, https://doi.org/10.5194/acp-22-4523-2022, 2022.
